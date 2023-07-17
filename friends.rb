@@ -4,3 +4,9 @@ friend_ages.each do |age|
         puts age
     end
 end
+
+friend_ages.each do |age|
+    if age > 60 
+        puts age
+    end
+end
