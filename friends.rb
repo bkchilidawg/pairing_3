@@ -6,7 +6,7 @@ friend_ages.each do |age|
 end
 
 friend_ages.each do |age|
-    if age > 60 
+    if age < 60 
         puts age
     end
 end
